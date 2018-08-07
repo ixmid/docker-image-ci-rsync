@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk add --no-cache rsync
+RUN apk add --no-cache openssh-client rsync
